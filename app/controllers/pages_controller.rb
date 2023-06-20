@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def index
 
-    @avatar = Avatar.all
+    @pages = Avatar.all
+    
   end
 end
